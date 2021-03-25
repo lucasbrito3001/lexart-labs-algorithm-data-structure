@@ -1,7 +1,7 @@
 function makeRandonCharacters(numberCharacters , numberCombinations) {
     let arrayWithCombinations = []
     let stringWithCharacters = ''
-    let randomIdGenerated = ''
+    let randomIdGenerated = String('')
     const charactersOptions = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
     const stringCharactersLength = charactersOptions.length;
     
@@ -22,7 +22,7 @@ function makeRandonCharacters(numberCharacters , numberCombinations) {
         }
     }
 
-    return `Random Id Generated => ${randomIdGenerated}`
+    return `The Random Id Generated is: ${randomIdGenerated}`
  }
  
  console.log(makeRandonCharacters(4,6));

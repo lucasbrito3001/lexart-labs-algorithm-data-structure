@@ -32,13 +32,13 @@ const valuesToSum = [1,2,3,4,5,6,7]
 const valuesToSub = [100,1,2,3,4,5,6]
 const valuesToMult = [1,2,3,4,5,6,7]
 const aDiv = Number(10)
-const bDiv = Number(2)
+const bDiv = Number(0)
 
 console.log(
     {
-        sum:`Sum: ${functionObject.sum(valuesToSum)}`,
-        sub: `Subtraction: ${functionObject.sub(valuesToSub)}`,
-        mult: `Multiplication: ${functionObject.mult(valuesToMult)}`,
-        div: `Division: ${functionObject.div(aDiv , bDiv)}`
+        Addition: functionObject.sum(valuesToSum),
+        Subtraction: functionObject.sub(valuesToSub),
+        Multiplication: functionObject.mult(valuesToMult),
+        Division: functionObject.div(aDiv , bDiv)
     }
 )
